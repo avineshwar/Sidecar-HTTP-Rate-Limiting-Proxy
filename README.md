@@ -12,7 +12,7 @@
 
 
 ##### Implementation overview:
-- There is a server (S) and a client (C)
+- The program contains a server (S) and a client (C)
 - For any web client (WC), S is listening and C is the requested upstream by S for WC.
 - Unless any failure condition is met, S will forward the request to C and upon getting a response (**timeout is not handled**), it will relay it back to WC. In a way, this is a minimalistic reverse proxy with specific end goals.
 
