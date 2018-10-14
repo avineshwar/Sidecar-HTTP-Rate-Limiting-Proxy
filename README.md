@@ -24,5 +24,17 @@
 
 ##### Architecture overview:
 - Primitive error handling is taken care off.
-- The current design supports horizontal scalability. An extension towards multi-threaded will make add vertical scalability, if needed.
-- Libraries are used over socket creation. This is support the goal of production readiness in an agile setting.
+- The current design supports horizontal scalability. An extension towards multi-threaded will make vertical scalability attainable, if needed.
+- Libraries are used over socket creation. This supports the goal of production readiness in an agile setting.
+
+
+##### Running instructions:
+- Ensure Python 2.7 is installed and present (at `/usr/bin/python`)
+- Make the file executable (`chmod u+x HRLP.py`)
+- Run the file (`./HRLP.py`)
+
+
+##### Gotchas & Considerations:
+- 1
+- 2
+- 3
