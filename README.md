@@ -29,7 +29,7 @@
 
 
 ##### Running instructions:
-- Ensure Python 2.7 is installed (at `/usr/bin/python`)
+- Ensure Python 2.7 is installed (available `/usr/bin/python`)
 - Make the file executable (`chmod u+x HRLP.py`)
 - Run the file (`./HRLP.py`)
 
