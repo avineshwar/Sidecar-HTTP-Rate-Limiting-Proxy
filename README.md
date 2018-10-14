@@ -5,7 +5,7 @@
 
 ##### High-level goals:
 - Implement a realistic rate limitation (route independent GET-only, _for the time being for simplicity_)
-- Protection against contention/DDoS is also achievable via information sharing to some appropriate master for achieving restrictions at L7
+- Protection against contention/DDoS is also achievable via information sharing to some appropriate master (control plane) for achieving restrictions at L7
 - Make the adoption of service mesh easier
 - Ensure the application for which rate limitation is being implemented stays free from taking any extra burden
 - Accelerate the possibilities of architecture maturity via compartmentalization and isolation
